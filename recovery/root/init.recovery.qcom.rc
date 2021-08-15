@@ -107,7 +107,7 @@ service ldconfigtxt /system/bin/touch /system/bin/ld.config.txt
 
 on boot
     setprop sys.usb.config adb
-    insmod /vendor/lib/hw/sec_touchscreen.ko
+    insmod /vendor/lib/modules/sec_touchscreen.ko
     write /sys/devices/virtual/sec/tsp/after_work 1
 
 on init
