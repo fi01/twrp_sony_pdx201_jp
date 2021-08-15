@@ -1,5 +1,5 @@
 
-LOCAL_PATH := device/sony/pdx201
+LOCAL_PATH := device/sony/pdx201_jp
 
 # define hardware platform
 PRODUCT_PLATFORM := trinket

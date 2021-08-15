@@ -25,7 +25,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),pdx201)
+ifeq ($(TARGET_DEVICE),pdx201_jp)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 

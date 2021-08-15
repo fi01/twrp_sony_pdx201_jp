@@ -23,7 +23,7 @@
 # *not* include it on all devices, so it is safe even with hardware-specific
 # components.
 
-LOCAL_PATH := device/sony/pdx201
+LOCAL_PATH := device/sony/pdx201_jp
 
 # Architecture
 TARGET_ARCH := arm64

@@ -15,7 +15,7 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := pdx201
+PRODUCT_RELEASE_NAME := pdx201_jp
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_minimal.mk)
 
@@ -23,19 +23,19 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_minimal.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
 # Inherit from hardware-specific part of the product configuration
-$(call inherit-product, device/sony/pdx201/device.mk)
+$(call inherit-product, device/sony/pdx201_jp/device.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := pdx201
-PRODUCT_NAME := omni_pdx201
+PRODUCT_DEVICE := pdx201_jp
+PRODUCT_NAME := omni_pdx201_jp
 PRODUCT_BRAND := Sony
-PRODUCT_MODEL := Xperia 10 II
+PRODUCT_MODEL := Xperia 10 II (JP)
 PRODUCT_MANUFACTURER := Sony
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=pdx201 \
-    BUILD_PRODUCT=pdx201 \
-    TARGET_DEVICE=pdx201
+    PRODUCT_NAME=pdx201_jp \
+    BUILD_PRODUCT=pdx201_jp \
+    TARGET_DEVICE=pdx201_jp
 
 # HACK: Set vendor patch level
 PRODUCT_PROPERTY_OVERRIDES += \

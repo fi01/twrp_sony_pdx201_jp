@@ -15,7 +15,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_pdx201.mk
+    $(LOCAL_DIR)/omni_pdx201_jp.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_pdx201-eng
+    omni_pdx201_jp-eng
